@@ -1,0 +1,35 @@
+{
+    "best_model": "Logistic Regression",
+    "test_accuracy": 0.6674528301886793,
+    "test_roc_auc": 0.7021164192299812,
+    "best_parameters": {
+        "C": 0.01,
+        "penalty": "l2",
+        "solver": "liblinear"
+    },
+    "features_used": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "age_squared",
+        "bmi_age",
+        "bp_ratio",
+        "cholesterol_bp"
+    ],
+    "n_features": 19,
+    "n_training_samples": 3392,
+    "n_test_samples": 848,
+    "chd_prevalence": 0.15188679245283018
+}
